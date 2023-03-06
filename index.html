@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <div>Meet And Go</div>
+          <img src="./src/meetandgo-logo-green.png" alt="logo" width="150px" />
+        </section>
+        <section>
+          <h3>Application</h3>
+          <p>
+            The application allows you to search for events by interests. Create
+            events. Meet and search for public companies.
+          </p>
+          <img src="./src/intro.jpg" alt="intro" />
+        </section>
+        <section>
+          <h3>Opportunities</h3>
+          <p class="r-fit-text">
+            In the application, you can create an account, add contacts for
+            communication, get reputation for organized events, change your
+            profile photo. Create events and invite friends there. The main
+            purpose of the application is public access to events for everyone.
+            Every event contain a list of participants, number of people, it is
+            possible to go to the profile and look at the participant and his
+            reputation.
+          </p>
+          <img src="./src/examples.jpg" alt="examples" />
+        </section>
+        <section>
+          <h3>Geographic market focus</h3>
+          Large cities of Europe, Russia, Central Asia
+        </section>
+        <section>
+          <h3>Business model & target audience</h3>
+          <p>Application with ads</p>
+          No download restrictions. The goal is to collect as many users as
+          possible. Data on their purpose is analyzed and provided to
+          advertisers who are ready to advertise. Сooperation with catering
+          companies, sports equipment companies, cafes, restaurants, anti-cafes.
+          We aim to establish contact with companies that will place ads and
+          great offers for users of our application
+        </section>
+        <section>
+          <div class="r-hstack">
+            <div class="r-fit-text">
+              <h5>Problem</h5>
+              We solve communication problems among people. In the age of
+              digital technologies, it becomes difficult to find a company by
+              interests
+            </div>
+            <div class="r-fit-text">
+              <h5>Solution</h5>
+              Our application will help shy and busy people to quickly find a
+              company in a few minutes to relax from work and life's routine
+            </div>
+          </div>
+        </section>
+        <section>
+          <p>Market</p>
+          We are developing an application for young people aged 16 to 30 who
+          live in large cities and who also need to communicate with each other
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
